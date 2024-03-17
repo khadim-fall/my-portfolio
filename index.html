@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio-website</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/9f77d55520.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Développeur</p>
+          <h1>Hi, I'm <span>khadim</span> <br />Fall from Senegal</h1>
+        </div>
+      </div>
+      <!-- -----------------------------about---------------- -->
+      <div id="about">
+        <div class="container">
+          <div class="row">
+            <div class="about-col-1">
+              <img src="images/PP_Plan de travail 1.jpg" />
+            </div>
+            <div class="about-col-2">
+              <h1 class="subtitle">About Me</h1>
+              <p>
+                Enthousiaste développeur web et mobile avec une passion pour la
+                création de sites web et d'applications conviviaux et
+                performants. Diplômé en Licence 3 en informatique, j'ai acquis
+                des compétences solides en développement front-end et back-end.
+                Je suis déterminé à rester à jour avec les dernières
+                technologies et à fournir des solutions innovantes.
+              </p>
+              <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">
+                  Compétences
+                </p>
+                <p class="tab-links" onclick="opentab('experience')">
+                  Expériences
+                </p>
+                <p class="tab-links" onclick="opentab('education')">
+                  Formation
+                </p>
+              </div>
+              <div class="tab-contents active-tab" id="skills">
+                <ul>
+                  <li><span>UI/UX</span><br />Designing Web/App interfaces</li>
+                  <li><span>Developpement Web</span><br />développer des applications web</li>
+                  <li>
+                    <span>Developpement Application mobile</span><br />concevoir des applications hybrides Android/OS
+                  </li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="experience">
+                <ul>
+                  <li>
+                    <span> GROUPE SUP'INFO | 2022 – 2024 </span><br />	
+                    Conception et réalisation d'une application web de gestion 
+                    de covoiturage 
+                  </li>
+                  <li><span> HÔTEL FLEUR DE LYS | 2021-2022 </span><br />•	Conception et réalisation
+                     d'une application web de gestion relation client(CRM)</li>
+                  <li><span>ESP | 2020-2021</span><br />Création d'une application web pour les cours en ligne en se basant sur Moodle</li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="education">
+                <ul>
+                  <li>
+                    <span>2022 – 2023 | GROUPE SUP'INFO</span><br />
+                    LICENCE EN DEVELOPPEMENT-PROGRAMMATION 
+                  </li>
+                  <li><span>2018 - 2020 | ÉCOLE SUPÉRIEURE POLYTECHNIQUE DE DAKAR (ESP)</span><br />
+                    DUT EN INFORMATIQUE 
+                    
+                    </li>
+                </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- -----------------services------------------------- -->
+    <div id="services">
+      <div class="container">
+        <h1 class="subtitle">Mes Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa fa-code"></i>
+            <h2>Web App</h2>
+            <p>
+              Développer des applications web conviviales et responsives
+            </p>
+            <a href="#">learn more</a>
+          </div>
+          <div>
+            <i class="fas fa-crop-alt"></i>
+            <h2>UI/UX Design</h2>
+            <p>
+              Concevoir l'interface utilisateur et à améliorer l'expérience utilisateur
+               des produits numériques tels que les sites web, les applications mobiles, les logiciels,etc
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fab fa-app-store"></i>
+            <h2>Mobile App</h2>
+            <p>
+              Concevoir des applications mobiles hybrides avec la technologie Flutter
+            </p>
+            <a href="#">learn more</a>
+          </div>
+        </div>
+        </div>
+    </div>
+    <!-- ----------portfoilio -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Application de médias sociaux</h3>
+                        <p>
+                          Il s'agit d'une application mobile pour partager ses activités sur différents réseaux sociaux.
+                           Elle peut être conçue en React Native/Flutter et utilise Firebase comme base de données.
+                        </p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Applicaion musicale</h3>
+                        <p>
+                          Il s'agit d'une application musicale qui permet aux utilisateurs de créer leurs propres chansons
+                            ou utiliser ceux qui existent déjà. 
+                            L'interface utilisateur peut être conçue à l'aide de l'API HTML5 Canvas
+                        </p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Application d'achat en ligne</h3>
+                        <p>
+                          Cette application vous permettra de vendre vos produits
+                        </p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- -------------------contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact me</h1>
+                    <p><i class="fas fa-paper-plane"></i> fall.khadim2803@gmail.com</p>
+                    <p> <i class="fas fa-phone-square-alt"></i> 777621806</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/khadim.fall.5209?mibextid=ZbWKwL"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/khadimmbackefall?igsh=ZDQyaG9jZDdyeHZ5"><i class="fab fa-instagram"></i></a>
+                        <a href="https://github.com/khadim-fall"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/khadim-fall-468173202"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    <a href="images/my-cv.pdf" download class="btn btn2">Télécharger CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Votre Nom" required>
+                        <input type="email" name="Email" placeholder="Votre email" required>
+                        <textarea name="Message"  rows="6" placeholder="Ecrivez-ici votre message"></textarea>
+                        <button type="submit" class="btn btn2">Envoyer</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; Khadim fall.<i class="fas fa-heart"></i></p>
+        </div>
+    </div>
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxPyObfB8EikDi3Cy7xle3ERrSYk98yYYl4cPqvQ09VaNJInlMmndGR6VVJhN9BXvxfsg/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                }, 5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+  </body>
+</html>

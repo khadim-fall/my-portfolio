@@ -1,0 +1,12 @@
+Parlez-moi de votre parcours académique?
+
+J'ai suivi un cursus de licence en Programmation-Développement à SUP’INFO, 
+où j'ai acquis une solide base dans divers aspects de l'informatique et du développement
+ logiciel. Mon programme académique a couvert des matières telles que
+  les langages de programmation, les bases de données, 
+  le développement web, et d'autres sujets connexes."
+
+  Au cours de ma licence, j'ai été exposé à des projets pratiques qui ont renforcé 
+  mes compétences en résolution de problèmes et en travail d'équipe. 
+  J'ai également eu l'occasion de travailler sur des projets individuels 
+  qui m'ont permis de développer mon autonomie et ma capacité à prendre des initiatives
